@@ -59,3 +59,8 @@
  ##### 可打分、可选标签、可上传图片的评价页面
  ![](http://owbbycifk.bkt.clouddn.com/image/gif/employerReviewMini.gif)
  
+ ##Window 上安装 MongoDB PHP7扩展
+ - 到官网https://pecl.php.net/package/mongodb下载 对应php版本的 php_mongodb.dll 文件
+ - 把文件解压出来 php_mongodb.dll 文件复制到 D:\wamp64\bin\php\php7.1.9\ext
+ - 在D:\wamp64\bin\apache\apache2.4.27\bin 下的php.ini中添加 extension=php_mongodb.dll
+ - 重启wamp
